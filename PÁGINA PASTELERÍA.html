@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Glass Bakery</title>
+
+<style>
+* {
+    margin-left: 1%;
+
+            box-sizing: margin-box;
+            background-image: background-color: #DFDBE5;
+background-image: background-color: #fcfaff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='96' viewBox='0 0 60 96'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23a092b7' fill-opacity='0.17'%3E%3Cpath d='M36 10a6 6 0 0 1 12 0v12a6 6 0 0 1-6 6 6 6 0 0 0-6 6 6 6 0 0 1-12 0 6 6 0 0 0-6-6 6 6 0 0 1-6-6V10a6 6 0 1 1 12 0 6 6 0 0 0 12 0zm24 78a6 6 0 0 1-6-6 6 6 0 0 0-6-6 6 6 0 0 1-6-6V58a6 6 0 1 1 12 0 6 6 0 0 0 6 6v24zM0 88V64a6 6 0 0 0 6-6 6 6 0 0 1 12 0v12a6 6 0 0 1-6 6 6 6 0 0 0-6 6 6 6 0 0 1-6 6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+
+        body {
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+        header {
+            background-color: rgb(223, 149, 229);
+            padding: 5px;
+            text-align: center;
+            font-size: 25px;
+            color: rgb(56, 9, 133);
+            width: 75%;
+            font-weight: bolder;
+        }
+
+        table {
+    width: 75%;
+    text-align: center;
+    background-color: pink;
+
+}
+
+th,td {
+    border: solid 4px;
+    border-style:groove;
+    padding: 4;
+}  
+
+input {
+width: 30%;
+border-color: purple;
+text-align: left;
+}
+
+nav ul {
+            list-style-type: none;
+            padding: 0;
+            float: left;
+        }
+
+
+</style>
+</head>
+ <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+    <!-- Sidebar -->
+    <div class="w3-sidebar w3-light-grey w3-bar-block" style="width:10%">
+        <h3 class="w3-bar-item">Menu</h3>
+        <a href="#" class="w3-bar-item w3-button">Contáctanos</a>
+        <a href="#" class="w3-bar-item w3-button">2</a>
+        <a href="#" class="w3-bar-item w3-button"> 3</a>
+      </div>
+
+  <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="width: 10%" id="mySidebar">
+    <button class="w3-bar-item w3-button w3-large"
+    onclick="w3_close()">Close &times;</button>
+    <a href="#" class="w3-bar-item w3-button">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button">Link 3</a>
+  </div>
+
+  <div class="w3-sidebar w3-bar-block" style="width: 12%" >
+    <h3 class="w3-bar-item">Contacto</h3>
+    <a href="#" class="w3-bar-item w3-button w3-border-bottom">5527038941</a> 
+    <a href="#" class="w3-bar-item w3-button w3-border-bottom">@GlassBakery</a>
+    <a href="#" class="w3-bar-item w3-button">Glass Bakery FB</a>
+    <br>
+    <a href="#" class="w3-bar-item w3-button"> <img src="Glass Chef.png" alt="Logo" width="125" id="logo"></a>
+    <br>
+    <h3 class="w3-bar-item">Horario de atención</h3> 
+    <a href="#" class="w3-bar-item w3-button w3-border-bottom"> L-V de 8am a 8pm</a>
+    <a href="#" class="w3-bar-item w3-button w3-border-bottom">S-D de 10am a 8pm</a>
+
+  </div>
+
+  <div id="main">
+
+</header>
+
+</nav>
+<div align="center">
+<header>
+<h1>🍰 Glass Bakery 🍰</h1>
+</header>
+</div>
+
+<div align="center">
+<header>
+<h5>・・・★・・・・・★・・・・・★・・・・・★・・・・・・・・★・・・・・★・・・・・★</h5>
+</header>
+</div>
+
+<br>
+<br>
+
+    <div align="center">
+    <table border bgcolor="pink"> 
+
+    <tr>
+        <th>Chocolate</th> <img src="https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2020/07/como-hacer-pastel-de-chocolate-en-tres-pasos-facilisimo.jpg" width="190px" height="180px">
+        <th>Vainilla</th> <img src="data:image/jpeg;base64,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"width="200px" height="180px">
+        <th>Tres Leches</th> <img src="https://i.ytimg.com/vi/n0ymEFZJBho/maxresdefault.jpg" width="190px" height="180px">
+        <th>Red Velvet</th> <img src="https://www.hazteveg.com/img/recipes/full/201602/R13-72096.jpg" width="190px" height="180px">
+        <th>Zanahoria</th> <img src="https://static.onecms.io/wp-content/uploads/sites/21/2018/01/30/pastel-de-zanahoria-con-nuez-2000.jpg" width="190px" height="180px"
+    </tr>
+
+    <br>
+    <br>
+
+    <header>
+        <h2>✨ Sabores de pastel disponibles ✨</h2>
+        </header>
+
+        <br>
+        <br>
+    <tr>
+        <td>400 pesos</td>
+        <td>340 pesos</td>
+        <td>390 pesos</td>
+        <td>445 pesos</td>
+        <td>410 pesos</td>
+    </tr>
+    </table>
+
+    <br>
+    <br>
+
+    <div align="center">
+        <table border bgcolor="pink"> 
+    
+        <tr>
+            <th>Ganache</th> <img src="https://d1kxxrc2vqy8oa.cloudfront.net/wp-content/uploads/2021/05/11072732/RFB-1602-1-ganachedechocolate.jpg" width="190px" height="180px">
+            <th>Fresas</th> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXNJyGp65l3gTa1a68kV484SuDrbSOqOr4Bg&usqp=CAU" width="190px" height="180px">
+            <th>Almendra</th> <img src="https://www.clikisalud.net/wp-content/uploads/2019/10/nueces-almendras-perder-peso.jpg" width="190px" height="180px">
+            <th>Crema batida</th> <img src="https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2018/12/como-estabilizar-la-crema-batida.jpg" width="190px" height="180px">
+            <th>Caramelo</th> <img src="https://superpola.com//site/assets/files/1730949/salsa-caramelo-530119449.jpg" width="190px" height="180px"
+        </tr>
+    
+        <br>
+        <br>
+
+        <header>
+            <h2>✨ Toppings/Adornos disponibles ✨</h2>
+            </header>
+
+            <br>
+            <br>
+    
+        <tr>
+            <td>+50 pesos</td>
+            <td>+35 pesos</td>
+            <td>+45 pesos</td>
+            <td>+28 pesos</td>
+            <td>+35 pesos</td>
+        </tr>
+        </table>
+
+        <br>
+        <br>
+
+<header>
+    <h2>✨ Ingresa aquí tu pedido ✨</h2>
+</header>
+
+<br>
+<br>
+
+
+    <form action="/accion.js" id="form1" method="post">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre"><br><br>
+
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" name="apellido" form="form1"><br><br>
+
+    <label for="teléfono">Teléfono:</label>
+    <input type="text" id="teléfono" name="teléfono" form="form1"><br><br>
+
+    <label for="correo">Correo:</label>
+    <input type="text" id="correo" name="correo" form="form1"><br><br>
+
+    <label for="sabor">Sabores de mi pastel (Elige 1 o 2):</label>
+    <input type="text" id="sabor" name="sabor" form="form1"><br><br>
+
+    <label for="top">Toppings de mi pastel (Elige 1 o 2):</label>
+    <input type="text" id="top" name="top" form="form1"><br><br>
+
+    <input type="reset">
+    <input type="button" id="boton1" name="boton1" value="Enviar mi pedido" onclick="alert('¡Tu pedido ya fue recibido!');"><br><br>
+    </form>
+
+<br>
+<br>
+
+    </a>
+    <h1>Existencias de pasteles y adornos; 5 de marzo de 2022</h1>
+    <hr>
+
+    <h2>Los pasteles disponibles son: </h2>
+    <h4>Chocolate: Restan 10</h4>
+    <h4>Vainilla: Restan 3</h4>
+    <h4>Tres Leches: Restan 15</h4>
+    <h4>Red Velvet: Restan 2</h4>
+    <h4>Zanahoria: Resta sólo 1</h4>
+
+    <br>
+
+    <h2>Los adornos disponibles son: </h2>
+    <h4>Ganache: Alcanza para 12</h4>
+    <h4>Fresas: Agotadas </h4>
+    <h4>Almendra: Alcanza para 7</h4>
+    <h4>Crema batida: Alcanza para 20</h4>
+    <h4>Caramelo: Alcanza para 4</h4>
+
+    <br>
+    <br>
+
+</body>
+</html>
